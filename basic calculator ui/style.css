@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+h1{
+    color: white;
+    font-family: 'Work Sans';
+
+}
+h2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF; 
+
+}
+h4{
+    color: white;
+    font-family: 'Work Sans';
+}
+.page1{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.calcback{
+    height: 812px;
+    width: 375px;
+    left: 567px;
+    border-radius: 44px;
+    background: #17171C;
+    align-self: center;
+
+    display: flex;
+    flex-direction: column;
+}
+.uitop{
+    width: 375px;
+    height: 44px;
+    border-radius: 44px 44px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.leftuitop{
+    width: 33.3%;
+}
+.clock{
+    width: 54px;
+    height: 21px;
+    text-align: center;
+    position: relative;
+    top: 18px;
+    left: 19px;
+}
+.notchuitop{
+    width: 33.3%;
+}
+.notch{
+    width: 164px;
+    height: 31px;
+    border-radius: 0 0 30px 30px;
+    background-color: #E5E5E5;
+    position: relative;
+    top: 0;
+    left: -16.7%;
+
+}
+.rightuitop{
+    width: 33.3%;
+    
+
+}
+.cont{
+    height: 12px;
+    width: 73px;
+    background-image: url(./assets/Calculator/Right\ Side.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 21px;
+    left: 27px;
+}
+.lightmode{
+    width: 100%;
+    height: 32px;
+    margin-top: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.lightswitch > button{
+    height: 32px;
+    width: 72px;
+    border: none;
+    border-radius: 16px;
+    
+}
+.lightswitch button:hover{
+    color: white;
+    background-color: hsl(0, 0%, 70%);
+}
+
+.lightswitch button:hover span {
+  display: none
+}
+
+.lightswitch button:hover:before {
+  content: "Day"
+}
+.calc{
+    height: 599px;
+    width: 335px;
+    margin-top: 55px;
+
+    align-self: center;
+
+}
+.calctop{
+    width: 100%;
+    height: 47px;
+    text-align: right;
+    opacity: 0.4;
+
+
+}
+.caltop h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+.calcmid{
+    height: 96px;
+    width: 100%;
+    margin-top: 16px;
+    text-align: right;
+}
+.calcmid h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 96px;
+}
+.calcinput{
+    margin-top: 16px;
+    width: 335px;
+    height: 424px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* grid-template-rows: 4; */
+
+}
+.button{
+    width: 71.75px;
+    height: 72px;
+    background: #2E2F38;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+
+
+}
+.button:hover{
+    background: hsl(234, 10%, 60%);
+
+}
+.lighter{
+    background-color: #4E505F
+}
+.lighter:hover{
+    background-color: hsl(233, 10%, 60%)
+}
+.sign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 72px;
+    height: 72px;
+}
+.icon{
+    width: 32px;
+    height: 32px;
+    background-image: url(./assets/Calculator/Icon.svg);
+    background-repeat: no-repeat;
+}
+.delicon{
+    width: 32px;
+    height: 32px;
+    background-image: url(./assets/Calculator/delicon.svg);
+    background-repeat: no-repeat;
+}
+.orange{
+    background-color: orange;
+}
+.orange:hover{
+    background-color: hsl(39, 100%, 70%);
+}
+.uifooter{
+    height: 44px;
+    width: 100%;
+    margin-top: 22px;
+    border-radius: 0 0 44px 44px;
+}
+.homeindicator{
+    width: 134px;
+    height: 5px;
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    position: relative;
+    top: 21px;
+    left: 33.3%;
+}
